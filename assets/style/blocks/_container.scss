@@ -1,0 +1,13 @@
+@use "../abstracts" as *;
+
+.container {
+	margin: 0 auto;
+	max-width: 1400px;
+	padding: 0 1rem 1rem;
+
+	@media #{$tablet} {
+		display: grid;
+		grid-template-columns: 1.15fr 1fr;
+		column-gap: 3rem;
+	}
+}

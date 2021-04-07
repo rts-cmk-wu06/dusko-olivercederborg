@@ -1,0 +1,13 @@
+@use "../../../abstracts" as *;
+
+.container__main-title {
+	text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+	color: white;
+	z-index: 10;
+	position: relative;
+
+	@media #{$tablet} {
+		text-shadow: none;
+		margin-top: 8rem;
+	}
+}

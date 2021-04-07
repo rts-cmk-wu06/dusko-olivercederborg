@@ -1,0 +1,35 @@
+@use "base/base";
+
+// single blocks
+@use "blocks/heading";
+@use "blocks/paragraph";
+@use "blocks/main";
+
+// container block
+@use "blocks/container";
+@use "blocks/container/__nav/container__nav";
+@use "blocks/container/__hero/container__hero";
+@use "blocks/container/__main/container__main";
+@use "blocks/container/__main-title/container__main-title";
+@use "blocks/container/__main-paragraph/container__main-paragraph";
+@use "blocks/container/__selection-gallery/container__selection-gallery";
+
+// nav block
+@use "blocks/nav";
+@use "blocks/nav/__list/nav__list";
+@use "blocks/nav/__item/nav__item";
+@use "blocks/nav/__link/nav__link";
+@use "blocks/nav/__link/--active/nav__link--active";
+@use "blocks/nav/__cta/nav__cta";
+
+// hero block
+@use "blocks/hero";
+@use "blocks/hero/__img/hero__image";
+
+// selection gallery block
+@use "blocks/selection-gallery";
+@use "blocks/selection-gallery/__title/selection-gallery__title";
+
+// gallery block
+@use "blocks/gallery";
+@use "blocks/gallery/__img/gallery__img";

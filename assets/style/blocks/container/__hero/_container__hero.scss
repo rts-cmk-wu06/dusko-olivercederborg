@@ -1,0 +1,12 @@
+@use "../../../abstracts" as *;
+
+.container__hero {
+	z-index: 1;
+	position: relative;
+	margin-top: -3rem;
+
+	@media #{$tablet} {
+		margin-top: 0;
+		margin-right: -20%;
+	}
+}

@@ -1,0 +1,8 @@
+.nav__item {
+	list-style: none;
+	margin-left: 2rem;
+
+	&:first-of-type {
+		margin-left: 0;
+	}
+}

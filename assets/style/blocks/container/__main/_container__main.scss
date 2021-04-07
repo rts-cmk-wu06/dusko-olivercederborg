@@ -1,0 +1,12 @@
+@use "../../../abstracts" as *;
+
+.container__main {
+	padding: 3rem 2rem;
+	margin-top: -5rem;
+
+	@media #{$tablet} {
+		padding: 0;
+		grid-row: span 2;
+		margin-top: -3.5rem;
+	}
+}
